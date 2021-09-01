@@ -1,0 +1,7 @@
+.label {
+    -fx-font-size: 16pt;
+}
+
+#title {
+   -fx-text-align: center;
+}
