@@ -27,4 +27,23 @@ public class Character {
         System.out.println("Health: " + health);
     }
 
+    public String getSummery(){
+        return String.format("%s - T:%s, H:%d, P:%d, SP:%d, S:%d", name, type, health, power, specialAttackPower, speed);
+    }
+
+    public void setHealth(int health) {
+        this.health = health;
+    }
+
+    public void setPower(int power) {
+        this.power = power;
+    }
+
+    public void setSpecialAttackPower(int specialAttackPower) {
+        this.specialAttackPower = specialAttackPower;
+    }
+
+    public void setSpeed(int speed) {
+        this.speed = speed;
+    }
 }
