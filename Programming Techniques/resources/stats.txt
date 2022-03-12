@@ -1,3 +1,0 @@
-People who understand java: 7
-People who kinda get it: 11
-People who don't understand java: 4
