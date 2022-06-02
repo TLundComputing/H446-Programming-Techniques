@@ -22,10 +22,16 @@ public class Main {
         characters.pop();
         characters.push("D");*/
 
-        HashTable<Integer> numbers = new HashTable<>(100);
+        /*HashTable<Integer> numbers = new HashTable<>(100);
         numbers.addItem(47);
         numbers.addItem(247);
-        numbers.removeItem(47);
+        numbers.removeItem(47);*/
+
+        BinaryTree tree = new BinaryTree();
+        Integer[] nums = {12, 7, 18,22,14,10,56,3,2,20,8};
+        for(Integer num : nums){
+            tree.addItem(num);
+        }
 
         System.out.println("End of program");
 
